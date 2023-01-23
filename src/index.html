@@ -12,11 +12,11 @@
   <body>
     <div class="main">
       <div class="emoji mb-6">💣🤯💥</div>
-      <form>
-        <input type="text" name="ccname" class="input">
-        <input type="number" name="cardnumber" class="input">
-        <input type="number" name="cvc" class="input">
-        <input type="date" name="cc-exp" class="input">
+      <form autocomplete="on">
+        <input autocomplete="cc-name" type="text" name="ccname" class="input">
+        <input autocomplete="cc-number" type="number" name="cardnumber" class="input">
+        <input autocomplete="cc-csc" type="number" name="cvc" class="input">
+        <input autocomplete="cc-exp" type="date" name="cc-exp" class="input">
 
         <button class="button">Boom?</button>
       </form>
